@@ -177,24 +177,12 @@ progressively.
 
 ### Vector database comparison
 
-  -----------------------------------------------------------------------
-  Vector database                     Strengths / use cases
-  ----------------------------------- -----------------------------------
-  Qdrant                              Vector search, metadata filtering,
-                                      hybrid retrieval; recommended
-                                      starting point
+<img width="909" height="432" alt="image" src="https://github.com/user-attachments/assets/5c8878f8-cd0a-4d09-a1d2-3260a68440bb" />
 
-  Azure AI Search                     Enterprise search, hybrid retrieval
-                                      and Azure integration
-
-  Chroma                              Simple local experimentation and
-                                      prototyping
-
-  Pinecone                            Managed vector database service
-  -----------------------------------------------------------------------
+PostgreSQL + pgvector: Best when you want relational and vector data in one database.
 
 **Recommendation:** Start with Qdrant locally using Docker, then
-implement Azure AI Search as an alternative backend. This gives you
+implement, Postgres or Azure AI Search as an alternative backend. This gives you
 practical experience comparing a dedicated vector database with a
 managed enterprise search service.
 
@@ -203,7 +191,7 @@ managed enterprise search service.
 ## 6. LangFuse -- Observability
 
 Use LangFuse to understand what happens internally when a user asks a
-question.
+question (AI generated image).
 <img width="3428" height="1972" alt="image" src="https://github.com/user-attachments/assets/9d14bb56-62dd-413a-baef-07d2bf55b173" />
 
 

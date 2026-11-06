@@ -48,18 +48,18 @@ Build an AI assistant that can:
 
 ## 2. Technology stack
 
-  Component             Technology              Purpose
-  --------------------- ----------------------- -------------------------------------------
-  LLM                   OpenAI / Azure OpenAI   Generate answers
-  RAG framework         LangChain               Document loading, chunking, retrieval
-  Agent orchestration   LangGraph               Multi-step agent workflows
-  Vector database       Qdrant                  Store and search embeddings
-  Embeddings            OpenAI Embeddings       Convert documents into vectors
-  Observability         LangFuse                Traces, token usage, latency, evaluations
-  Backend               Python + FastAPI        REST APIs
-  Frontend              React                   Chat interface
-  Database              PostgreSQL              Users, documents, metadata
-  Containerisation      Docker                  Local deployment
+|Component             | Technology           | Purpose              |
+|----------------------|----------------------|----------------------|
+|LLM                   |OpenAI / Azure OpenAI |Generate answers |
+|RAG framework         |LangChain             |Document loading, chunking, retrieval | 
+|Agent orchestration   |LangGraph             |Multi-step agent workflows | 
+|Vector database       |Qdrant                |Store and search embeddings |
+|Embeddings            |OpenAI Embeddings     |Convert documents into vectors |
+|Observability         |LangFuse              |Traces, token usage, latency, evaluations |
+|Backend               |Python + FastAPI      |REST APIs |
+|Frontend              |React                 |Chat interface | 
+|Database              |PostgreSQL            |Users, documents, metadata |
+|Containerisation      |Docker                |Local deployment |
 
 ### Recommended starting choices
 

@@ -369,18 +369,18 @@ engineering-knowledge-copilot/
 
 ## 9. Final project acceptance criteria
 
-  Capability   Acceptance criteria
-  ------------ ------------------------------------------------------
-  RAG          Answers questions using uploaded documents
-  Retrieval    Returns relevant top-5 chunks
-  Citations    Provides source document and page
-  LangGraph    Executes conditional multi-agent workflows
-  LangChain    Handles ingestion, retrieval and LLM integration
-  Qdrant       Stores and searches document embeddings
-  LangFuse     Displays complete traces and token usage
-  Evaluation   Measures retrieval relevance and answer faithfulness
-  Security     Prevents unauthorised document access
-  Deployment   Runs using Docker Compose
+  |Capability   |Acceptance criteria |
+  |------------ |------------------------------------------------------ |
+  |RAG          |Answers questions using uploaded documents |
+  |Retrieval    |Returns relevant top-5 chunks |
+  |Citations    |Provides source document and page |
+  |LangGraph    |Executes conditional multi-agent workflows |
+  |LangChain    |Handles ingestion, retrieval and LLM integration |
+  |Qdrant       |Stores and searches document embeddings |
+  |LangFuse     |Displays complete traces and token usage |
+  |Evaluation   |Measures retrieval relevance and answer faithfulness |
+  |Security     |Prevents unauthorised document access |
+  |Deployment   |Runs using Docker Compose |
 
 ------------------------------------------------------------------------
 
@@ -428,8 +428,7 @@ Once the core project works, consider adding:
 
 ## Expected outcome
 
-At completion, you will have a practical portfolio project
-demonstrating:
+At completion, the project demonstrates:
 
 -   Retrieval-Augmented Generation (RAG)
 -   Vector databases and semantic search

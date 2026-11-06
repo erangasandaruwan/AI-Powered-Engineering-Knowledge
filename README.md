@@ -162,18 +162,18 @@ query and retrieve again rather than immediately generating an answer.
 Do not stop at basic vector similarity search. Implement the following
 progressively.
 
-  Feature                  What you will learn
-  ------------------------ ---------------------------------------------
-  Basic RAG                Chunking, embeddings, retrieval
-  Metadata filtering       Filter by project, document type, version
-  Hybrid search            Combine keyword and vector search
-  Reranking                Improve retrieved document relevance
-  Query rewriting          Improve ambiguous questions
-  Multi-query retrieval    Search using multiple interpretations
-  Parent-child retrieval   Retrieve smaller chunks with larger context
-  Contextual compression   Remove irrelevant retrieved information
-  Citation generation      Reference original document and page
-  RAG evaluation           Measure retrieval and answer quality
+  |Feature                 |What will be implemented |
+  |------------------------|---------------------------------------------|
+  |Basic RAG               |Chunking, embeddings, retrieval |
+  |Metadata filtering      |Filter by project, document type, version |
+  |Hybrid search           |Combine keyword and vector search |
+  |Reranking               |Improve retrieved document relevance |
+  |Query rewriting         |Improve ambiguous questions | 
+  |Multi-query retrieval   |Search using multiple interpretations |
+  |Parent-child retrieval  |Retrieve smaller chunks with larger context |
+  |Contextual compression  |Remove irrelevant retrieved information |
+  |Citation generation     |Reference original document and page | 
+  |RAG evaluation          |Measure retrieval and answer quality |
 
 ### Vector database comparison
 

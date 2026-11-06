@@ -53,9 +53,9 @@ Build an AI assistant that can:
 |LLM                   |OpenAI / Azure OpenAI |Generate answers |
 |RAG framework         |LangChain             |Document loading, chunking, retrieval | 
 |Agent orchestration   |LangGraph             |Multi-step agent workflows | 
-|Vector database       |Qdrant                |Store and search embeddings |
+|Vector database       |Qdrant / Postgres + pgvector / pinecone / Chroma                |Store and search embeddings |
 |Embeddings            |OpenAI Embeddings     |Convert documents into vectors |
-|Observability         |LangFuse              |Traces, token usage, latency, evaluations |
+|Observability         |LangFuse / Comet Opik              |Traces, token usage, latency, evaluations |
 |Backend               |Python + FastAPI      |REST APIs |
 |Frontend              |React                 |Chat interface | 
 |Database              |PostgreSQL            |Users, documents, metadata |
@@ -63,10 +63,10 @@ Build an AI assistant that can:
 
 ### Recommended starting choices
 
--   Vector database: Qdrant.
+-   Vector database: Qdrant / Postgres + pgvector / pinecone / Chroma.
 -   RAG framework: LangChain.
 -   Orchestration: LangGraph.
--   Observability: LangFuse.
+-   Observability: LangFuse / Comet Opik.
 -   LLM: Azure OpenAI or OpenAI.
 
 Start with Qdrant locally using Docker, then consider implementing Azure
@@ -87,14 +87,14 @@ The application has two major pipelines.
 3.  Clean and normalise text.
 4.  Split documents into chunks.
 5.  Generate embeddings.
-6.  Store embeddings and metadata in Qdrant.
+6.  Store embeddings and metadata in Qdrant or Postgres + pgvector.
 7.  Maintain document references and access permissions.
 
 ### B. Question-answering pipeline
 
 1.  User submits a question.
 2.  LangChain converts the question into an embedding.
-3.  Qdrant retrieves relevant chunks.
+3.  Qdrant / Postgres + pgvector retrieves relevant chunks.
 4.  Apply metadata filtering and reranking.
 5.  LangGraph determines the next action.
 6.  The LLM generates an answer using retrieved context.

@@ -204,6 +204,8 @@ managed enterprise search service.
 
 Use LangFuse to understand what happens internally when a user asks a
 question.
+<img width="3428" height="1972" alt="image" src="https://github.com/user-attachments/assets/9d14bb56-62dd-413a-baef-07d2bf55b173" />
+
 
 ### What to monitor
 

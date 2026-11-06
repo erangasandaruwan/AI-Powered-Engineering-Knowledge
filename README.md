@@ -1,14 +1,10 @@
 # AI-Powered Engineering Knowledge
 
-**Project level:** Intermediate to Advanced\
-**Recommended portfolio project:** Enterprise-oriented RAG and
-multi-agent application
-
 ## 1. Project overview
 
 Build an AI assistant that understands an organisation's engineering
 knowledge and helps software teams find information, analyse
-requirements, and create technical deliverables.
+requirements, and create technical deliverables. This project demonstrates practical enterprise AI engineering rather than just building a basic chatbot. It also gives you experience with solution architecture, agent orchestration, RAG pipelines, evaluation and observability.
 
 ### Problem statement
 

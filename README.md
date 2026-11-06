@@ -132,15 +132,15 @@ flowchart TD
 
 ### Suggested agents and nodes
 
-  Agent                    Responsibility
-  ------------------------ ----------------------------------------
-  Question Classifier      Understand user intent
-  Document Retriever       Retrieve relevant knowledge
-  Architecture Agent       Generate architecture proposals
-  Business Analyst Agent   Generate requirements and user stories
-  SQL Agent                Generate SQL from database context
-  Retrieval Evaluator      Check retrieved context relevance
-  Response Evaluator       Check answer quality and completeness
+  |Agent                    |Responsibility        |
+  |-------------------------|----------------------|
+  |Question Classifier      |Understand user intent |
+  |Document Retriever       |Retrieve relevant knowledge |
+  |Architecture Agent       |Generate architecture proposals |
+  |Business Analyst Agent   |Generate requirements and user stories |
+  |SQL Agent                |Generate SQL from database context |
+  |Retrieval Evaluator      |Check retrieved context relevance | 
+  |Response Evaluator       |Check answer quality and completeness |
 
 ### Important LangGraph concepts to implement
 

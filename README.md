@@ -76,6 +76,8 @@ AI Search as an alternative backend.
 
 ## 3. High-level architecture
 
+<img width="1200" height="657" alt="image" src="https://github.com/user-attachments/assets/8c2ecb51-5cbb-46cc-a6ee-41e07f26cecf" />
+
 The application has two major pipelines.
 
 ### A. Document ingestion pipeline
